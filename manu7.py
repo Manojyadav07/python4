@@ -1,10 +1,10 @@
-num1=(input())
-num2=(input())
-num3=(input())
-if(num1>num2)and(num1>num3):
-    largest=num1
-elif(num2>num1)and(num2>num3):
-    largest=num2
+x=(input())
+y=(input())
+z=(input())
+if(x>y)and(x>z):
+    largest=x
+elif(y>x)and(y>z):
+    largest=y
 else:
-    largest=num3
+    largest=z
 print(largest)    
